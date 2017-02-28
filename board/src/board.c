@@ -88,8 +88,6 @@
 /*==================[external functions definition]==========================*/
 void board_init(void)
 {
-    int32_t busClock;
-
     /* Activación de clock para los puertos utilizados */
     SIM_HAL_EnableClock(SIM, kSimClockGatePortA);
     SIM_HAL_EnableClock(SIM, kSimClockGatePortC);

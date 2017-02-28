@@ -45,21 +45,6 @@ extern "C" {
 
 /*==================[macros]=================================================*/
 
-/** \brief puerto I2C utilizado en el acelerómetro  */
-#define MMA8451_I2C     I2C0
-
-#define UART_INSTANCE   ((UART_Type*)UART0)
-
-/* The UART to use for debug messages. */
-#ifndef BOARD_DEBUG_UART_INSTANCE
-    #define BOARD_DEBUG_UART_INSTANCE   0
-    #define BOARD_DEBUG_UART_BASEADDR   UART0
-#endif
-#ifndef BOARD_DEBUG_UART_BAUD
-    #define BOARD_DEBUG_UART_BAUD       115200
-#endif
-
-
 /*==================[typedef]================================================*/
 
 /*==================[external data declaration]==============================*/
